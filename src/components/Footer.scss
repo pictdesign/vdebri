@@ -1,0 +1,107 @@
+.footer {
+  width: 100%;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 70px;
+  box-sizing: border-box;
+  
+  &__navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 150px;
+  }
+
+  &__info {
+    display: flex;
+    column-gap: 50px;
+  }
+
+  &__menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+
+    &_contact {
+      justify-content: space-between;
+    }
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    white-space: nowrap;
+    display: flex;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    transition: font-weight .2s linear;
+
+    &-title {
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    &:hover {
+      color: #666;
+      font-weight: bolder;
+    }
+  }
+
+  &__icon {
+    border-radius: 50%;
+    display: block;
+    width: 22px;
+    height: 22px;
+    transition: all .3s linear;
+
+    &_vk {
+      background-image: url('../assets/images/SVG/SVG/vk.svg');
+    }
+
+    &_instagram {
+      background-image: url('../assets/images/SVG/SVG/instagram.svg');
+    }
+
+    &_whatsapp {
+      background-image: url('../assets/images/SVG/SVG/whatsapp.svg');
+    }
+  }
+
+  .copyright {
+    align-self: flex-end;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    
+    
+    &__text {
+      font-size: 12px;
+      line-height: 24px;  
+      color: #999;
+      text-transform: uppercase;  
+    }
+
+    &__link {
+      font-size: 12px;
+      line-height: 24px;  
+      color: #999;
+    }
+  }
+  
+}

@@ -1,0 +1,84 @@
+.request {
+  width: 100%;
+  background-image: url('../assets/images/1x/subscribe.jpg');
+  background-position: top 100% left 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  
+  &__container {
+    padding: 100px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .26);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 45px;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: Igra, sans-serif;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  &__subtitle {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 17px;
+    max-width: 330px;
+    text-align: center;
+  }
+
+  &__input-container {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    border: none;
+  }
+
+  &__input {
+    width: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #fff;
+    color: #fff;
+
+    &::placeholder {
+      color: #fff;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all .2s linear;
+
+    &:hover {
+      color: #000;
+      background-color: #fff;
+    }
+  }
+}

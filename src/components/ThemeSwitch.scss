@@ -1,0 +1,42 @@
+.theme {
+  display: flex;
+  column-gap: 30px;
+
+  &__button {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    color: #ccc;
+    fill: #cccccc;
+
+    &:hover {
+      color: #009245;
+      fill: #009245;
+    }
+
+    &_winter:hover {
+      color: #3795c0e3;
+      fill: #3795c0e3;
+    }
+  }
+
+  &__icon {
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    &:hover {
+      
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 12px;
+    text-transform: lowercase;
+  }
+}
