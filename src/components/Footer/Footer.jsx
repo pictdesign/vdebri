@@ -1,7 +1,7 @@
 import React from 'react';
-import MenuLink from './MenuLink.jsx';
+import MenuLink from '../../Utils/MenuLink/MenuLink.jsx';
 import './Footer.scss';
-import Logo from './Logo.jsx';
+import Logo from '../Logo/Logo.jsx';
 
 const Footer = () => {
   return (

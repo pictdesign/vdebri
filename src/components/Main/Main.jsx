@@ -1,11 +1,11 @@
 import React from 'react';
 import './Main.scss';
-import Event from './Event.jsx';
-import Benefits from './Benefits.jsx';
-import logo from '../assets/images/SVG/logo1.svg';
-import Review from './Review.jsx';
-import Request from './Request.jsx';
-import Slider from './swiper/Swiper.jsx';
+import Event from '../Event/Event.jsx';
+import Benefits from '../Benefits/Benefits.jsx';
+import logo from '../../assets/images/SVG/logo1.svg';
+import Review from '../Review/Review.jsx';
+import Request from '../Request/Request.jsx';
+import Slider from '../Swiper/Swiper.jsx';
 
 const Main = () => {
   return (

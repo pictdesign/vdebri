@@ -1,9 +1,9 @@
 import React from 'react';
 import ThemeSwitch from './ThemeSwitch.jsx';
-import MenuLink from './MenuLink.jsx';
+import MenuLink from '../../Utils/MenuLink/MenuLink.jsx';
 import './Header.scss';
-import Logo from './Logo.jsx';
-import WinterList from '../constants/WinterList';
+import Logo from '../Logo/Logo.jsx';
+import WinterList from '../../constants/WinterList';
 // import SummerList from '../constants/SummerList';
 
 const Header = () => {

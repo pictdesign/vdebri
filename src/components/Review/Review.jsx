@@ -1,6 +1,6 @@
 import React from 'react';
 import './Review.scss';
-import Reviews from '../constants/Reviews';
+import Reviews from '../../constants/Reviews';
 
 const Review = () => {
   return (
